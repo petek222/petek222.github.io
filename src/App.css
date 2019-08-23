@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+  background-color: white;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  padding: 0px;
+  margin-left: 100px;
+  margin-top: 100px;
+  color: white;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 300px;
+  color: #404040;
+}
+
+.myName {
+  color: #404040;
+}
+
+.dropdown {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  margin-left: 100px;
+  margin-top: 50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.listElem {
+  color: #404040;
+  text-decoration: none;
+}
+
+.static {
+  color: #404040;
+}
+
+.headerElem {
+  color: teal;
+  text-decoration: none;
+}
+
+.linkElem {
+  color: orange;
+  text-decoration: none;
+}
+
+.linkElem:hover {
+  cursor: pointer;
+  color: teal;
+  text-decoration: none;
+}
+
+.listElem:hover {
+  cursor: pointer;
+  color: teal;
+  text-decoration: none;
+}
+
+.listElemStatic {
+  color: #404040;
+  text-decoration: none;
+}
+
+.listElemStatic:hover {
+  color: teal;
+  text-decoration: none;
+}
+
+.nodeElem {
+  color:green;
+
+}
+
+.reactElem {
+  color: #61DAFB
+}
+
+.cElem {
+  color: blue;
+
+}
+
+.javascriptElem {
+  color: #F0DB4F;
+
+}
+
+.javaElem {
+  color: orange;
+
+}
+
+.htmlElem {
+  color: orangered;
+
+}
+
+.sqlElem {
+  color: red;
+
+}
+
+.matlabElem {
+  color: goldenrod;
+
+}
+
+.pythonElem {
+  color: #376D9C;
+
+}
+
+.listElemOnClick {
+  background-color: teal;
+  text-decoration: none;
+}
+
+.prof {
+  color: #404040;
+}
+
+.tabData {
+  margin-top: 600px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(90deg);
+}
+
+.tabItem {
+  transform: rotate(270deg);
+}
+
+.workNav {
+  text-indent: 5%;
+}
