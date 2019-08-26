@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Bio from './bio';
+import PageInfo from './pageinfo';
 import Work from './tabs/work';
 import Projects from './tabs/projects';
 import Interests from './tabs/interests';
@@ -19,6 +20,7 @@ ReactDOM.render(<Tools />, document.getElementById('tools'));
 ReactDOM.render(<School />, document.getElementById('school'));
 ReactDOM.render(<Interests />, document.getElementById('interests'));
 ReactDOM.render(<Contact />, document.getElementById('contact'));
+ReactDOM.render(<PageInfo />, document.getElementById('pageinfo'));
 
 
 // If you want your app to work offline and load faster, you can change
