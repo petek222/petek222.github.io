@@ -38,7 +38,7 @@ export default class Projects extends React.Component {
       return (
         <Nav vertical className = "workNav">
             <NavItem>
-              <NavLink href="https://www.npmjs.com/package/trimap_config_loader" target = "_blank" className = "listElem"><code>💨 Developed an npm module for secure, efficient, and speedy configuration loading.</code></NavLink>
+              <NavLink href="https://github.com/petek222/trimap_config_loader" target = "_blank" className = "listElem"><code>💨 Developed an npm module for secure, efficient, and speedy configuration loading.</code></NavLink>
             </NavItem>
           <br></br>
           <NavItem>

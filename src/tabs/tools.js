@@ -40,24 +40,24 @@ export default class Tools extends React.Component {
         <Nav vertical className = "workNav">
         <code className = 'prof'>Listed by order of proficiency.</code>
         <br></br>
-          <NavItem className = "nodeElem">
-            <li><code> Node.js</code></li>
+          <NavItem className = "cElem">
+            <li><code> C++</code></li>
           </NavItem>
           <br></br>
-          <NavItem className = "cElem">
-              <code>C++</code>
+          <NavItem className = "nodeElem">
+              <code>Node.js</code>
           </NavItem>
           <br></br>
           <NavItem className = "reactElem">
               <code>React.js</code>
           </NavItem>
           <br></br>
-          <NavItem className = "javascriptElem">
-              <code>Javascript</code>
-          </NavItem>
-          <br></br>
           <NavItem className = "javaElem">
               <code>Java</code>
+          </NavItem>
+          <br></br>
+          <NavItem className = "javascriptElem">
+              <code>JavaScript</code>
           </NavItem>
           <br></br>
           <NavItem className = "htmlElem">
